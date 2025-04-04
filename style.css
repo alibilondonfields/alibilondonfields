@@ -46,9 +46,7 @@ p {
     transform: translateX (-50%) rotate(0deg); /*point down by default*/
     cursor: pointer;
 }
-.scroll-down:hover {
-    color:#3E5622;
-}
+
 
 /*second section*/
 #second-section {

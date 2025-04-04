@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family:'Courier New', Courier, monospace;
     text-align:center;
@@ -61,3 +62,68 @@ p {
 html {
     scroll-behavior: smooth;
 }
+=======
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    background-color: #E4E6C3;
+    color: #243119;
+}
+
+header {
+    height: 100vh; /*full screen height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#E4E6C3;
+    position: relative;
+}
+
+p {
+    display: block;
+    margin-bottom:10px;
+}
+
+.bigGap {
+    margin-bottom: 200px;
+}
+
+.gap {
+    margin-bottom: 60px;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
+/*scroll down arrow*/
+.scroll-down {
+    display:block;
+    font-size: 60px; /*arrow size */
+    text-decoration: none;
+    color: #95B46A;
+    transition: transform 0.5s ease; /*smooth transition for rotation*/
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform: translateX (-50%) rotate(0deg); /*point down by default*/
+    cursor: pointer;
+}
+
+
+/*second section*/
+#second-section {
+    padding-top: 50px;
+    height: 100vh;
+    color:#243119;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+html {
+    scroll-behavior: smooth;
+}
+>>>>>>> 5976a3e54416c5a74ac5952d914f65070316b3c9

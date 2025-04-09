@@ -33,6 +33,8 @@ p {
     height: auto;
 }
 
+
+
 /*scroll down arrow*/
 .scroll-down {
     display:block;
@@ -45,6 +47,10 @@ p {
     left: 50%;
     transform: translateX (-50%) rotate(0deg); /*point down by default*/
     cursor: pointer;
+}
+
+.scroll-down svg {
+    transition: transform 0.5s ease;
 }
 
 
